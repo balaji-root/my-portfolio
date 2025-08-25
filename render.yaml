@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: balaji-cybersec-portfolio
+    plan: free
+    buildCommand: pnpm install && pnpm run build:client
+    publishPath: ./dist/spa
+    envVars:
+      - key: NODE_ENV
+        value: production
