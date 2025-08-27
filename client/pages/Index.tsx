@@ -172,30 +172,26 @@ export default function Index() {
               <div className="bg-black/80 border border-terminal-green/30 p-6 rounded font-mono text-sm">
                 <div className="space-y-3">
                   <div className="flex items-center space-x-2">
-                    <span className="text-terminal-cyan">[2024-01-15 14:30]</span>
+                    <span className="text-terminal-cyan">[2024-02-09 11:30]</span>
                     <span className="text-terminal-green">&rarr;</span>
-                    <span className="text-terminal-green/80">Built a network vulnerability scanner in Python for class project</span>
+                    <span className="text-terminal-green/80">Built a network vulnerability scanner in Python </span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-terminal-cyan">[2024-01-12 09:15]</span>
+                    <span className="text-terminal-cyan">[2024-05-12 09:15]</span>
                     <span className="text-terminal-green">&rarr;</span>
                     <span className="text-terminal-green/80">Advanced to top 10% on TryHackMe leaderboard with 50+ room completions</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-terminal-cyan">[2024-01-10 16:45]</span>
+                    <span className="text-terminal-cyan">[2024-07-21 16:45]</span>
                     <span className="text-terminal-green">&rarr;</span>
                     <span className="text-terminal-green/80">Completed TryHackMe Advent of Cyber and earned certificate</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <span className="text-terminal-cyan">[2024-01-08 11:20]</span>
+                    <span className="text-terminal-cyan">[2024-12-18 11:20]</span>
                     <span className="text-terminal-green">&rarr;</span>
                     <span className="text-terminal-green/80">Set up home lab with Kali Linux and vulnerable VMs</span>
                   </div>
-                  <div className="flex items-center space-x-2">
-                    <span className="text-terminal-cyan">[2024-01-05 13:30]</span>
-                    <span className="text-terminal-green">&rarr;</span>
-                    <span className="text-terminal-green/80">Created honeypot project to detect and log intrusion attempts</span>
-                  </div>
+                  
                 </div>
               </div>
             </div>
