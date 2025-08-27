@@ -75,7 +75,7 @@ export default function Index() {
                     &gt; View Projects
                   </Link>
                   <a
-                    href="https://cdn.builder.io/o/assets%2Fe3d84a344a3a4034a5c8aeeb7e9a6c65%2Fa8cd88ac05de4fdca24b8825a0dfe3bd?alt=media&token=2be990db-4079-45d8-84ca-1f5369edd812&apiKey=e3d84a344a3a4034a5c8aeeb7e9a6c65"
+                    href="/resume.pdf"
                     download="Balaji_R_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
