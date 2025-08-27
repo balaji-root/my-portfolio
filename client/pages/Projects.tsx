@@ -158,22 +158,90 @@ export default function Projects() {
                                 ./project_stats
                               </h3>
                               <div className="space-y-2 font-mono text-sm">
-                                <div className="flex justify-between">
-                                  <span className="text-terminal-green/60">Status:</span>
-                                  <span className="text-terminal-green">✅ Production Ready</span>
-                                </div>
-                                <div className="flex justify-between">
-                                  <span className="text-terminal-green/60">Deployment:</span>
-                                  <span className="text-terminal-cyan">Render.com</span>
-                                </div>
-                                <div className="flex justify-between">
-                                  <span className="text-terminal-green/60">Type:</span>
-                                  <span className="text-terminal-yellow">Web Application</span>
-                                </div>
-                                <div className="flex justify-between">
-                                  <span className="text-terminal-green/60">Security Focus:</span>
-                                  <span className="text-terminal-red">Phishing Detection</span>
-                                </div>
+                                {project.id === 1 && (
+                                  <>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Status:</span>
+                                      <span className="text-terminal-green">✅ Production Ready</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Deployment:</span>
+                                      <span className="text-terminal-cyan">Render.com</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Type:</span>
+                                      <span className="text-terminal-yellow">Web Application</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Security Focus:</span>
+                                      <span className="text-terminal-red">Phishing Detection</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Accuracy:</span>
+                                      <span className="text-terminal-cyan">94.2%</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Response Time:</span>
+                                      <span className="text-terminal-yellow">0.8s</span>
+                                    </div>
+                                  </>
+                                )}
+                                {project.id === 2 && (
+                                  <>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Status:</span>
+                                      <span className="text-terminal-yellow">🔄 In Development</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Deployment:</span>
+                                      <span className="text-terminal-cyan">Local Development</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Type:</span>
+                                      <span className="text-terminal-yellow">Healthcare System</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Database:</span>
+                                      <span className="text-terminal-cyan">MongoDB</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Authentication:</span>
+                                      <span className="text-terminal-red">JWT + Ollama</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Frontend:</span>
+                                      <span className="text-terminal-yellow">React + Bootstrap</span>
+                                    </div>
+                                  </>
+                                )}
+                                {project.id === 3 && (
+                                  <>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Status:</span>
+                                      <span className="text-terminal-yellow">🔧 Prototype</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Environment:</span>
+                                      <span className="text-terminal-cyan">VirtualBox</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Type:</span>
+                                      <span className="text-terminal-yellow">Network Security</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Firewall:</span>
+                                      <span className="text-terminal-red">pfSense</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Monitoring:</span>
+                                      <span className="text-terminal-cyan">SIEM Integration</span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                      <span className="text-terminal-green/60">Lab Type:</span>
+                                      <span className="text-terminal-yellow">Virtual Network</span>
+                                    </div>
+                                  </>
+                                )}
                               </div>
                             </div>
                           </div>
